@@ -1,0 +1,5 @@
+/Laberinto/*
+/Compiler/Debug/src/*
+*.mk
+makefile
+*.exe
