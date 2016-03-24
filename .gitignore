@@ -1,4 +1,4 @@
 Laberinto/*
-!Compiler/src
+Compiler/Debug/*
 !Compiler/Debug/input.pass
 !Compiler/Debug/input2.pass
