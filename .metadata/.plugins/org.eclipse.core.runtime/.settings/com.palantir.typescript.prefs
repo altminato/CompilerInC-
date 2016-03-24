@@ -1,0 +1,10 @@
+#Sat Feb 20 14:12:49 UTC 2016
+syntaxColoring.stringLiteral.color=0,164,15
+syntaxColoring.punctuation.color=255,255,255
+syntaxColoring.keyword.color=153,153,153
+syntaxColoring.identifier.color=255,255,255
+syntaxColoring.numberLiteral.color=255,0,0
+syntaxColoring.comment.color=102,102,102
+eclipse.preferences.version=1
+syntaxColoring.operator.color=255,255,255
+syntaxColoring.regExpLiteral.color=0,164,15

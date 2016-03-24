@@ -1,0 +1,51 @@
+/*
+ * token.cpp
+ *
+ *  Created on: Feb 21, 2016
+ *      Author: antonio
+ */
+#include <stdio.h>
+#include <string.h>
+#include "token.h"
+
+//Word Token
+//Get
+void TWordToken::Get(TextInBuffer &buffer){
+	char ch=buffer.Char();
+	char *ps=string;
+
+	//Extract the word
+	do{
+		*ps++=ch;
+		ch=buffer.GetChar();
+
+	}while( (charCodeMap[ch]==ccLetter)
+			|| (charCodeMap[ch]== ccDigit));
+
+	*ps='\0';
+	strlwr(string);
+	code=tcWord;
+}
+
+//Print
+void TWordToken::Print(void)const
+{
+	sprintf(list.text, "\t%-18s %-s", ">> word: ", string);
+	list.PutLine();
+}
+
+//Get
+void TNumberToken::Get(TextInBuffer &buffer){
+	const int maxDigitCount=4;
+
+	char ch=buffer.Char();
+	char *ps=string;
+	int digitCount=0;
+	int countErrorFlag=false;
+}
+
+
+
+
+
+

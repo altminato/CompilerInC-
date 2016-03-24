@@ -1,0 +1,16 @@
+#Sat Feb 20 14:12:49 UTC 2016
+num.TexColor=255,0,0
+def.BibColor=255,255,255
+key.BibColor=153,153,153
+typ.BibColor=156,248,40
+str.BibColor=0,164,15
+equ.TexColor=0,164,15
+def.TexColor=255,255,255
+spe.TexColor=153,153,153
+slc.BibColor=102,102,102
+sqr.TexColor=6,150,9
+verb.TexColor=195,135,5
+crl.TexColor=247,197,39
+eclipse.preferences.version=1
+cmd.TexColor=247,197,39
+com.TexColor=102,102,102
