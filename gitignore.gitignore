@@ -1,5 +1,4 @@
-*.*
-/*
-!/Compiler/src
-!/Compiler/Debug/input.pass
-!/Compiler/Debug/input2.pass
+*
+!Compiler/src
+!Compiler/Debug/input.pass
+!Compiler/Debug/input2.pass
