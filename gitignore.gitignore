@@ -1,5 +1,4 @@
-/Laberinto/*
-/Compiler/Debug/src/*
-*.mk
-makefile
-*.exe
+/*
+!/Compiler/src/
+!/Compiler/Debug/input.pass
+!/Compiler/Debug/input2.pass
