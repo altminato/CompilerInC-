@@ -2,6 +2,13 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="cdt.managedbuild.config.gnu.exe.debug.527649152;cdt.managedbuild.config.gnu.exe.debug.527649152.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1259331199;cdt.managedbuild.tool.gnu.cpp.compiler.input.1661288208">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/mingw32"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include/c++/backward"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../include"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
 <includePath path="/usr/include/c++/4.9"/>
 <includePath path="/usr/include/x86_64-linux-gnu/c++/4.9"/>
 <includePath path="/usr/include/c++/4.9/backward"/>
@@ -16,7 +23,9 @@
 <definedSymbol symbol="__GNUC__=4"/>
 <definedSymbol symbol="__GNUC_MINOR__=9"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=2"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=3"/>
 <definedSymbol symbol="__VERSION__=&quot;4.9.2&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;4.9.3&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -28,12 +37,15 @@
 <definedSymbol symbol="__LP64__=1"/>
 <definedSymbol symbol="__SIZEOF_INT__=4"/>
 <definedSymbol symbol="__SIZEOF_LONG__=8"/>
+<definedSymbol symbol="__SIZEOF_LONG__=4"/>
 <definedSymbol symbol="__SIZEOF_LONG_LONG__=8"/>
 <definedSymbol symbol="__SIZEOF_SHORT__=2"/>
 <definedSymbol symbol="__SIZEOF_FLOAT__=4"/>
 <definedSymbol symbol="__SIZEOF_DOUBLE__=8"/>
 <definedSymbol symbol="__SIZEOF_LONG_DOUBLE__=16"/>
+<definedSymbol symbol="__SIZEOF_LONG_DOUBLE__=12"/>
 <definedSymbol symbol="__SIZEOF_SIZE_T__=8"/>
+<definedSymbol symbol="__SIZEOF_SIZE_T__=4"/>
 <definedSymbol symbol="__CHAR_BIT__=8"/>
 <definedSymbol symbol="__BIGGEST_ALIGNMENT__=16"/>
 <definedSymbol symbol="__ORDER_LITTLE_ENDIAN__=1234"/>
@@ -42,13 +54,20 @@
 <definedSymbol symbol="__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__SIZEOF_POINTER__=8"/>
+<definedSymbol symbol="__SIZEOF_POINTER__=4"/>
 <definedSymbol symbol="__GNUG__=4"/>
 <definedSymbol symbol="__SIZE_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__SIZE_TYPE__=unsigned int"/>
 <definedSymbol symbol="__PTRDIFF_TYPE__=long int"/>
+<definedSymbol symbol="__PTRDIFF_TYPE__=int"/>
 <definedSymbol symbol="__WCHAR_TYPE__=int"/>
+<definedSymbol symbol="__WCHAR_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__WINT_TYPE__=unsigned int"/>
+<definedSymbol symbol="__WINT_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__INTMAX_TYPE__=long int"/>
+<definedSymbol symbol="__INTMAX_TYPE__=long long int"/>
 <definedSymbol symbol="__UINTMAX_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINTMAX_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__CHAR16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__CHAR32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__SIG_ATOMIC_TYPE__=int"/>
@@ -56,28 +75,40 @@
 <definedSymbol symbol="__INT16_TYPE__=short int"/>
 <definedSymbol symbol="__INT32_TYPE__=int"/>
 <definedSymbol symbol="__INT64_TYPE__=long int"/>
+<definedSymbol symbol="__INT64_TYPE__=long long int"/>
 <definedSymbol symbol="__UINT8_TYPE__=unsigned char"/>
 <definedSymbol symbol="__UINT16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__UINT32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__UINT64_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INT_LEAST8_TYPE__=signed char"/>
 <definedSymbol symbol="__INT_LEAST16_TYPE__=short int"/>
 <definedSymbol symbol="__INT_LEAST32_TYPE__=int"/>
 <definedSymbol symbol="__INT_LEAST64_TYPE__=long int"/>
+<definedSymbol symbol="__INT_LEAST64_TYPE__=long long int"/>
 <definedSymbol symbol="__UINT_LEAST8_TYPE__=unsigned char"/>
 <definedSymbol symbol="__UINT_LEAST16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__UINT_LEAST32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__UINT_LEAST64_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_LEAST64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INT_FAST8_TYPE__=signed char"/>
 <definedSymbol symbol="__INT_FAST16_TYPE__=long int"/>
+<definedSymbol symbol="__INT_FAST16_TYPE__=short int"/>
 <definedSymbol symbol="__INT_FAST32_TYPE__=long int"/>
+<definedSymbol symbol="__INT_FAST32_TYPE__=int"/>
 <definedSymbol symbol="__INT_FAST64_TYPE__=long int"/>
+<definedSymbol symbol="__INT_FAST64_TYPE__=long long int"/>
 <definedSymbol symbol="__UINT_FAST8_TYPE__=unsigned char"/>
 <definedSymbol symbol="__UINT_FAST16_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_FAST16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__UINT_FAST32_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_FAST32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__UINT_FAST64_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_FAST64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INTPTR_TYPE__=long int"/>
+<definedSymbol symbol="__INTPTR_TYPE__=int"/>
 <definedSymbol symbol="__UINTPTR_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINTPTR_TYPE__=unsigned int"/>
 <definedSymbol symbol="__has_include(STR)=__has_include__(STR)"/>
 <definedSymbol symbol="__has_include_next(STR)=__has_include_next__(STR)"/>
 <definedSymbol symbol="__GXX_WEAK__=1"/>
@@ -90,27 +121,40 @@
 <definedSymbol symbol="__SHRT_MAX__=32767"/>
 <definedSymbol symbol="__INT_MAX__=2147483647"/>
 <definedSymbol symbol="__LONG_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__LONG_MAX__=2147483647L"/>
 <definedSymbol symbol="__LONG_LONG_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__WCHAR_MAX__=2147483647"/>
+<definedSymbol symbol="__WCHAR_MAX__=65535"/>
 <definedSymbol symbol="__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)"/>
+<definedSymbol symbol="__WCHAR_MIN__=0"/>
 <definedSymbol symbol="__WINT_MAX__=4294967295U"/>
+<definedSymbol symbol="__WINT_MAX__=65535"/>
 <definedSymbol symbol="__WINT_MIN__=0U"/>
+<definedSymbol symbol="__WINT_MIN__=0"/>
 <definedSymbol symbol="__PTRDIFF_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__PTRDIFF_MAX__=2147483647"/>
 <definedSymbol symbol="__SIZE_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__SIZE_MAX__=4294967295U"/>
 <definedSymbol symbol="__INTMAX_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INTMAX_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__INTMAX_C(c)=c ## L"/>
+<definedSymbol symbol="__INTMAX_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__UINTMAX_C(c)=c ## UL"/>
+<definedSymbol symbol="__UINTMAX_C(c)=c ## ULL"/>
 <definedSymbol symbol="__SIG_ATOMIC_MAX__=2147483647"/>
 <definedSymbol symbol="__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)"/>
 <definedSymbol symbol="__INT8_MAX__=127"/>
 <definedSymbol symbol="__INT16_MAX__=32767"/>
 <definedSymbol symbol="__INT32_MAX__=2147483647"/>
 <definedSymbol symbol="__INT64_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT64_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__UINT8_MAX__=255"/>
 <definedSymbol symbol="__UINT16_MAX__=65535"/>
 <definedSymbol symbol="__UINT32_MAX__=4294967295U"/>
 <definedSymbol symbol="__UINT64_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT64_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__INT_LEAST8_MAX__=127"/>
 <definedSymbol symbol="__INT8_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST16_MAX__=32767"/>
@@ -118,7 +162,9 @@
 <definedSymbol symbol="__INT_LEAST32_MAX__=2147483647"/>
 <definedSymbol symbol="__INT32_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__INT64_C(c)=c ## L"/>
+<definedSymbol symbol="__INT64_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINT_LEAST8_MAX__=255"/>
 <definedSymbol symbol="__UINT8_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST16_MAX__=65535"/>
@@ -126,20 +172,31 @@
 <definedSymbol symbol="__UINT_LEAST32_MAX__=4294967295U"/>
 <definedSymbol symbol="__UINT32_C(c)=c ## U"/>
 <definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__UINT64_C(c)=c ## UL"/>
+<definedSymbol symbol="__UINT64_C(c)=c ## ULL"/>
 <definedSymbol symbol="__INT_FAST8_MAX__=127"/>
 <definedSymbol symbol="__INT_FAST16_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_FAST16_MAX__=32767"/>
 <definedSymbol symbol="__INT_FAST32_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_FAST32_MAX__=2147483647"/>
 <definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__UINT_FAST8_MAX__=255"/>
 <definedSymbol symbol="__UINT_FAST16_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_FAST16_MAX__=65535"/>
 <definedSymbol symbol="__UINT_FAST32_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_FAST32_MAX__=4294967295U"/>
 <definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__INTPTR_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INTPTR_MAX__=2147483647"/>
 <definedSymbol symbol="__UINTPTR_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINTPTR_MAX__=4294967295U"/>
 <definedSymbol symbol="__GCC_IEC_559=2"/>
 <definedSymbol symbol="__GCC_IEC_559_COMPLEX=2"/>
 <definedSymbol symbol="__FLT_EVAL_METHOD__=0"/>
+<definedSymbol symbol="__FLT_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__DEC_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__FLT_RADIX__=2"/>
 <definedSymbol symbol="__FLT_MANT_DIG__=24"/>
@@ -207,6 +264,7 @@
 <definedSymbol symbol="__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL"/>
 <definedSymbol symbol="__REGISTER_PREFIX__="/>
 <definedSymbol symbol="__USER_LABEL_PREFIX__="/>
+<definedSymbol symbol="__USER_LABEL_PREFIX__=_"/>
 <definedSymbol symbol="__GNUC_GNU_INLINE__=1"/>
 <definedSymbol symbol="__NO_INLINE__=1"/>
 <definedSymbol symbol="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1"/>
@@ -228,8 +286,11 @@
 <definedSymbol symbol="__PRAGMA_REDEFINE_EXTNAME=1"/>
 <definedSymbol symbol="__SIZEOF_INT128__=16"/>
 <definedSymbol symbol="__SIZEOF_WCHAR_T__=4"/>
+<definedSymbol symbol="__SIZEOF_WCHAR_T__=2"/>
 <definedSymbol symbol="__SIZEOF_WINT_T__=4"/>
+<definedSymbol symbol="__SIZEOF_WINT_T__=2"/>
 <definedSymbol symbol="__SIZEOF_PTRDIFF_T__=8"/>
+<definedSymbol symbol="__SIZEOF_PTRDIFF_T__=4"/>
 <definedSymbol symbol="__amd64=1"/>
 <definedSymbol symbol="__amd64__=1"/>
 <definedSymbol symbol="__x86_64=1"/>
@@ -260,10 +321,45 @@
 <definedSymbol symbol="__STDC_IEC_559_COMPLEX__=1"/>
 <definedSymbol symbol="__STDC_ISO_10646__=201103L"/>
 <definedSymbol symbol="__STDC_NO_THREADS__=1"/>
+<definedSymbol symbol="__WCHAR_UNSIGNED__=1"/>
+<definedSymbol symbol="__i386=1"/>
+<definedSymbol symbol="__i386__=1"/>
+<definedSymbol symbol="i386=1"/>
+<definedSymbol symbol="__i586=1"/>
+<definedSymbol symbol="__i586__=1"/>
+<definedSymbol symbol="__pentium=1"/>
+<definedSymbol symbol="__pentium__=1"/>
+<definedSymbol symbol="__code_model_32__=1"/>
+<definedSymbol symbol="_X86_=1"/>
+<definedSymbol symbol="__stdcall=__attribute__((__stdcall__))"/>
+<definedSymbol symbol="__fastcall=__attribute__((__fastcall__))"/>
+<definedSymbol symbol="__thiscall=__attribute__((__thiscall__))"/>
+<definedSymbol symbol="__cdecl=__attribute__((__cdecl__))"/>
+<definedSymbol symbol="_stdcall=__attribute__((__stdcall__))"/>
+<definedSymbol symbol="_fastcall=__attribute__((__fastcall__))"/>
+<definedSymbol symbol="_thiscall=__attribute__((__thiscall__))"/>
+<definedSymbol symbol="_cdecl=__attribute__((__cdecl__))"/>
+<definedSymbol symbol="__GXX_MERGED_TYPEINFO_NAMES=0"/>
+<definedSymbol symbol="__GXX_TYPEINFO_EQUALITY_INLINE=0"/>
+<definedSymbol symbol="__MSVCRT__=1"/>
+<definedSymbol symbol="__MINGW32__=1"/>
+<definedSymbol symbol="_WIN32=1"/>
+<definedSymbol symbol="__WIN32=1"/>
+<definedSymbol symbol="__WIN32__=1"/>
+<definedSymbol symbol="WIN32=1"/>
+<definedSymbol symbol="__WINNT=1"/>
+<definedSymbol symbol="__WINNT__=1"/>
+<definedSymbol symbol="WINNT=1"/>
+<definedSymbol symbol="_INTEGRAL_MAX_BITS=64"/>
+<definedSymbol symbol="__declspec(x)=__attribute__((x))"/>
 </collector>
 </instance>
 <instance id="cdt.managedbuild.config.gnu.exe.debug.527649152;cdt.managedbuild.config.gnu.exe.debug.527649152.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1118256771;cdt.managedbuild.tool.gnu.c.compiler.input.1516143610">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../include"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
+<includePath path="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/../../../../mingw32/include"/>
 <includePath path="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
 <includePath path="/usr/local/include"/>
 <includePath path="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
@@ -274,7 +370,9 @@
 <definedSymbol symbol="__GNUC__=4"/>
 <definedSymbol symbol="__GNUC_MINOR__=9"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=2"/>
+<definedSymbol symbol="__GNUC_PATCHLEVEL__=3"/>
 <definedSymbol symbol="__VERSION__=&quot;4.9.2&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;4.9.3&quot;"/>
 <definedSymbol symbol="__ATOMIC_RELAXED=0"/>
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__ATOMIC_ACQUIRE=2"/>
@@ -286,12 +384,15 @@
 <definedSymbol symbol="__LP64__=1"/>
 <definedSymbol symbol="__SIZEOF_INT__=4"/>
 <definedSymbol symbol="__SIZEOF_LONG__=8"/>
+<definedSymbol symbol="__SIZEOF_LONG__=4"/>
 <definedSymbol symbol="__SIZEOF_LONG_LONG__=8"/>
 <definedSymbol symbol="__SIZEOF_SHORT__=2"/>
 <definedSymbol symbol="__SIZEOF_FLOAT__=4"/>
 <definedSymbol symbol="__SIZEOF_DOUBLE__=8"/>
 <definedSymbol symbol="__SIZEOF_LONG_DOUBLE__=16"/>
+<definedSymbol symbol="__SIZEOF_LONG_DOUBLE__=12"/>
 <definedSymbol symbol="__SIZEOF_SIZE_T__=8"/>
+<definedSymbol symbol="__SIZEOF_SIZE_T__=4"/>
 <definedSymbol symbol="__CHAR_BIT__=8"/>
 <definedSymbol symbol="__BIGGEST_ALIGNMENT__=16"/>
 <definedSymbol symbol="__ORDER_LITTLE_ENDIAN__=1234"/>
@@ -300,12 +401,19 @@
 <definedSymbol symbol="__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
 <definedSymbol symbol="__SIZEOF_POINTER__=8"/>
+<definedSymbol symbol="__SIZEOF_POINTER__=4"/>
 <definedSymbol symbol="__SIZE_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__SIZE_TYPE__=unsigned int"/>
 <definedSymbol symbol="__PTRDIFF_TYPE__=long int"/>
+<definedSymbol symbol="__PTRDIFF_TYPE__=int"/>
 <definedSymbol symbol="__WCHAR_TYPE__=int"/>
+<definedSymbol symbol="__WCHAR_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__WINT_TYPE__=unsigned int"/>
+<definedSymbol symbol="__WINT_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__INTMAX_TYPE__=long int"/>
+<definedSymbol symbol="__INTMAX_TYPE__=long long int"/>
 <definedSymbol symbol="__UINTMAX_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINTMAX_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__CHAR16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__CHAR32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__SIG_ATOMIC_TYPE__=int"/>
@@ -313,28 +421,40 @@
 <definedSymbol symbol="__INT16_TYPE__=short int"/>
 <definedSymbol symbol="__INT32_TYPE__=int"/>
 <definedSymbol symbol="__INT64_TYPE__=long int"/>
+<definedSymbol symbol="__INT64_TYPE__=long long int"/>
 <definedSymbol symbol="__UINT8_TYPE__=unsigned char"/>
 <definedSymbol symbol="__UINT16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__UINT32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__UINT64_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INT_LEAST8_TYPE__=signed char"/>
 <definedSymbol symbol="__INT_LEAST16_TYPE__=short int"/>
 <definedSymbol symbol="__INT_LEAST32_TYPE__=int"/>
 <definedSymbol symbol="__INT_LEAST64_TYPE__=long int"/>
+<definedSymbol symbol="__INT_LEAST64_TYPE__=long long int"/>
 <definedSymbol symbol="__UINT_LEAST8_TYPE__=unsigned char"/>
 <definedSymbol symbol="__UINT_LEAST16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__UINT_LEAST32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__UINT_LEAST64_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_LEAST64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INT_FAST8_TYPE__=signed char"/>
 <definedSymbol symbol="__INT_FAST16_TYPE__=long int"/>
+<definedSymbol symbol="__INT_FAST16_TYPE__=short int"/>
 <definedSymbol symbol="__INT_FAST32_TYPE__=long int"/>
+<definedSymbol symbol="__INT_FAST32_TYPE__=int"/>
 <definedSymbol symbol="__INT_FAST64_TYPE__=long int"/>
+<definedSymbol symbol="__INT_FAST64_TYPE__=long long int"/>
 <definedSymbol symbol="__UINT_FAST8_TYPE__=unsigned char"/>
 <definedSymbol symbol="__UINT_FAST16_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_FAST16_TYPE__=short unsigned int"/>
 <definedSymbol symbol="__UINT_FAST32_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_FAST32_TYPE__=unsigned int"/>
 <definedSymbol symbol="__UINT_FAST64_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINT_FAST64_TYPE__=long long unsigned int"/>
 <definedSymbol symbol="__INTPTR_TYPE__=long int"/>
+<definedSymbol symbol="__INTPTR_TYPE__=int"/>
 <definedSymbol symbol="__UINTPTR_TYPE__=long unsigned int"/>
+<definedSymbol symbol="__UINTPTR_TYPE__=unsigned int"/>
 <definedSymbol symbol="__has_include(STR)=__has_include__(STR)"/>
 <definedSymbol symbol="__has_include_next(STR)=__has_include_next__(STR)"/>
 <definedSymbol symbol="__GXX_ABI_VERSION=1002"/>
@@ -342,27 +462,40 @@
 <definedSymbol symbol="__SHRT_MAX__=32767"/>
 <definedSymbol symbol="__INT_MAX__=2147483647"/>
 <definedSymbol symbol="__LONG_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__LONG_MAX__=2147483647L"/>
 <definedSymbol symbol="__LONG_LONG_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__WCHAR_MAX__=2147483647"/>
+<definedSymbol symbol="__WCHAR_MAX__=65535"/>
 <definedSymbol symbol="__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)"/>
+<definedSymbol symbol="__WCHAR_MIN__=0"/>
 <definedSymbol symbol="__WINT_MAX__=4294967295U"/>
+<definedSymbol symbol="__WINT_MAX__=65535"/>
 <definedSymbol symbol="__WINT_MIN__=0U"/>
+<definedSymbol symbol="__WINT_MIN__=0"/>
 <definedSymbol symbol="__PTRDIFF_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__PTRDIFF_MAX__=2147483647"/>
 <definedSymbol symbol="__SIZE_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__SIZE_MAX__=4294967295U"/>
 <definedSymbol symbol="__INTMAX_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INTMAX_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__INTMAX_C(c)=c ## L"/>
+<definedSymbol symbol="__INTMAX_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINTMAX_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__UINTMAX_C(c)=c ## UL"/>
+<definedSymbol symbol="__UINTMAX_C(c)=c ## ULL"/>
 <definedSymbol symbol="__SIG_ATOMIC_MAX__=2147483647"/>
 <definedSymbol symbol="__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)"/>
 <definedSymbol symbol="__INT8_MAX__=127"/>
 <definedSymbol symbol="__INT16_MAX__=32767"/>
 <definedSymbol symbol="__INT32_MAX__=2147483647"/>
 <definedSymbol symbol="__INT64_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT64_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__UINT8_MAX__=255"/>
 <definedSymbol symbol="__UINT16_MAX__=65535"/>
 <definedSymbol symbol="__UINT32_MAX__=4294967295U"/>
 <definedSymbol symbol="__UINT64_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT64_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__INT_LEAST8_MAX__=127"/>
 <definedSymbol symbol="__INT8_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST16_MAX__=32767"/>
@@ -370,7 +503,9 @@
 <definedSymbol symbol="__INT_LEAST32_MAX__=2147483647"/>
 <definedSymbol symbol="__INT32_C(c)=c"/>
 <definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_LEAST64_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__INT64_C(c)=c ## L"/>
+<definedSymbol symbol="__INT64_C(c)=c ## LL"/>
 <definedSymbol symbol="__UINT_LEAST8_MAX__=255"/>
 <definedSymbol symbol="__UINT8_C(c)=c"/>
 <definedSymbol symbol="__UINT_LEAST16_MAX__=65535"/>
@@ -378,20 +513,31 @@
 <definedSymbol symbol="__UINT_LEAST32_MAX__=4294967295U"/>
 <definedSymbol symbol="__UINT32_C(c)=c ## U"/>
 <definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__UINT64_C(c)=c ## UL"/>
+<definedSymbol symbol="__UINT64_C(c)=c ## ULL"/>
 <definedSymbol symbol="__INT_FAST8_MAX__=127"/>
 <definedSymbol symbol="__INT_FAST16_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_FAST16_MAX__=32767"/>
 <definedSymbol symbol="__INT_FAST32_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_FAST32_MAX__=2147483647"/>
 <definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INT_FAST64_MAX__=9223372036854775807LL"/>
 <definedSymbol symbol="__UINT_FAST8_MAX__=255"/>
 <definedSymbol symbol="__UINT_FAST16_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_FAST16_MAX__=65535"/>
 <definedSymbol symbol="__UINT_FAST32_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_FAST32_MAX__=4294967295U"/>
 <definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
 <definedSymbol symbol="__INTPTR_MAX__=9223372036854775807L"/>
+<definedSymbol symbol="__INTPTR_MAX__=2147483647"/>
 <definedSymbol symbol="__UINTPTR_MAX__=18446744073709551615UL"/>
+<definedSymbol symbol="__UINTPTR_MAX__=4294967295U"/>
 <definedSymbol symbol="__GCC_IEC_559=2"/>
 <definedSymbol symbol="__GCC_IEC_559_COMPLEX=2"/>
 <definedSymbol symbol="__FLT_EVAL_METHOD__=0"/>
+<definedSymbol symbol="__FLT_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__DEC_EVAL_METHOD__=2"/>
 <definedSymbol symbol="__FLT_RADIX__=2"/>
 <definedSymbol symbol="__FLT_MANT_DIG__=24"/>
@@ -459,6 +605,7 @@
 <definedSymbol symbol="__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL"/>
 <definedSymbol symbol="__REGISTER_PREFIX__="/>
 <definedSymbol symbol="__USER_LABEL_PREFIX__="/>
+<definedSymbol symbol="__USER_LABEL_PREFIX__=_"/>
 <definedSymbol symbol="__GNUC_GNU_INLINE__=1"/>
 <definedSymbol symbol="__NO_INLINE__=1"/>
 <definedSymbol symbol="__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1"/>
@@ -480,8 +627,11 @@
 <definedSymbol symbol="__PRAGMA_REDEFINE_EXTNAME=1"/>
 <definedSymbol symbol="__SIZEOF_INT128__=16"/>
 <definedSymbol symbol="__SIZEOF_WCHAR_T__=4"/>
+<definedSymbol symbol="__SIZEOF_WCHAR_T__=2"/>
 <definedSymbol symbol="__SIZEOF_WINT_T__=4"/>
+<definedSymbol symbol="__SIZEOF_WINT_T__=2"/>
 <definedSymbol symbol="__SIZEOF_PTRDIFF_T__=8"/>
+<definedSymbol symbol="__SIZEOF_PTRDIFF_T__=4"/>
 <definedSymbol symbol="__amd64=1"/>
 <definedSymbol symbol="__amd64__=1"/>
 <definedSymbol symbol="__x86_64=1"/>
@@ -511,6 +661,36 @@
 <definedSymbol symbol="__STDC_IEC_559_COMPLEX__=1"/>
 <definedSymbol symbol="__STDC_ISO_10646__=201103L"/>
 <definedSymbol symbol="__STDC_NO_THREADS__=1"/>
+<definedSymbol symbol="__i386=1"/>
+<definedSymbol symbol="__i386__=1"/>
+<definedSymbol symbol="i386=1"/>
+<definedSymbol symbol="__i586=1"/>
+<definedSymbol symbol="__i586__=1"/>
+<definedSymbol symbol="__pentium=1"/>
+<definedSymbol symbol="__pentium__=1"/>
+<definedSymbol symbol="__code_model_32__=1"/>
+<definedSymbol symbol="_X86_=1"/>
+<definedSymbol symbol="__stdcall=__attribute__((__stdcall__))"/>
+<definedSymbol symbol="__fastcall=__attribute__((__fastcall__))"/>
+<definedSymbol symbol="__thiscall=__attribute__((__thiscall__))"/>
+<definedSymbol symbol="__cdecl=__attribute__((__cdecl__))"/>
+<definedSymbol symbol="_stdcall=__attribute__((__stdcall__))"/>
+<definedSymbol symbol="_fastcall=__attribute__((__fastcall__))"/>
+<definedSymbol symbol="_thiscall=__attribute__((__thiscall__))"/>
+<definedSymbol symbol="_cdecl=__attribute__((__cdecl__))"/>
+<definedSymbol symbol="__GXX_MERGED_TYPEINFO_NAMES=0"/>
+<definedSymbol symbol="__GXX_TYPEINFO_EQUALITY_INLINE=0"/>
+<definedSymbol symbol="__MSVCRT__=1"/>
+<definedSymbol symbol="__MINGW32__=1"/>
+<definedSymbol symbol="_WIN32=1"/>
+<definedSymbol symbol="__WIN32=1"/>
+<definedSymbol symbol="__WIN32__=1"/>
+<definedSymbol symbol="WIN32=1"/>
+<definedSymbol symbol="__WINNT=1"/>
+<definedSymbol symbol="__WINNT__=1"/>
+<definedSymbol symbol="WINNT=1"/>
+<definedSymbol symbol="_INTEGRAL_MAX_BITS=64"/>
+<definedSymbol symbol="__declspec(x)=__attribute__((x))"/>
 </collector>
 </instance>
 <instance id="cdt.managedbuild.config.gnu.exe.release.1904577670;cdt.managedbuild.config.gnu.exe.release.1904577670.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.506105960;cdt.managedbuild.tool.gnu.cpp.compiler.input.792233867">

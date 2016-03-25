@@ -6,7 +6,7 @@
  */
 
 #include <iostream>
-#include "error.h"
+#include "../error/error.h"
 #include "../buffer/buffer.h"
 
 
