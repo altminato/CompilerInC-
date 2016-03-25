@@ -2,5 +2,7 @@
 RemoteSystemsTempFiles/*
 Laberinto/*
 Compiler/Debug/*
+Compiler/.settings/*
 !Compiler/Debug/input.pass
 !Compiler/Debug/input2.pass
+*.project
