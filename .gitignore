@@ -1,3 +1,5 @@
+.metadata/*
+RemoteSystemsTempFiles/*
 Laberinto/*
 Compiler/Debug/*
 !Compiler/Debug/input.pass
