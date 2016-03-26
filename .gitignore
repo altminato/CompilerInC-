@@ -1,9 +1,8 @@
-.metadata/
-RemoteSystemsTempFiles/*
-Laberinto/*
-Compiler/Debug/*
-Compiler/.settings/*
-!Compiler/Debug/input.pass
-!Compiler/Debug/input2.pass
-*.project
 *.log
+.metadata/*
+.metadata/.log
+.metadata/.mylyn/.repositories.xml.zip
+Compiler/.settings/*
+Compiler/Debug/*
+.metadata/.plugins/org.eclipse.cdt.core/.log
+.metadata/.plugins/org.eclipse.cdt.core/Compiler.1455392001573.pdom
