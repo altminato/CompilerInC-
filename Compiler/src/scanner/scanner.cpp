@@ -41,6 +41,26 @@ TTextScanner::TTextScanner(TTextInBuffer *pBuffer)
 //SkipWhiteSpace
 void TTextScanner::SkipWhiteSpace(void){
 	char ch=pTextInBuffer->Char();
+
+	do{
+		if(charCodeMap[ch] == ccWhiteSpace){
+			//--Saw a white space, fecth next charcater
+			ch= pTextInBuffer->GetChar();
+		}else if(ch == '{'){
+			//--Spik over a comment, then fecth the next character
+			do{
+				ch=pTextInBuffer->GetChar();
+			}while((ch != '}') && (ch != eofChar));
+
+			if(ch != eofChar){
+				ch= pTextInBuffer->GetChar();
+			}else{
+				Error(errUnexpectedEndOfFile)
+			}
+
+		}
+	}while((charCodeMap[ch]== ccWhiteSpace)|| (ch=='{'));
+
 	while(charCodeMap[ch]== ccWhiteSpace){
 		ch=pTextInBuffer->GetChar();
 	}

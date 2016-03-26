@@ -41,31 +41,44 @@ public:
 	char *String()				{ return string; }
 
 	virtual void Get(TTextInBuffer &buffer)	=0;
+	virtual int IsDelimiter(void) const =0;
 	virtual void Print(void) const=0;
 };
 
 //TWordToken class
 
 class TWordToken:public TToken{
+	void CheckForReservedWord(void);
 public:
 	virtual void Get(TTextInBuffer &buffer);
+	virtual int IsDelimiter(void) const { return false; }
 	virtual void Print(void) const;
 };
 
 
 //TNumberToken
 class TNumberToken:public TToken{
+	char ch;
+	char *ps;
+	int digitCount;
+	int countErrorFlag;
+
+	int AccumulateValue(TTextInBuffer &buffer, float &value, TErrorCode ec);
 public:
 	TNumberToken(void){code = tcNumber; }
 
 	virtual void Get(TTextInBuffer &buffer);
+	virtual int IsDelimiter(void) const { return false; }
 	virtual void Print(void) const;
 };
 
 //TStringToken
 class TStringToken:public TToken{
 public:
+	TStringToken(){ code = tcString; }
+
 	virtual void Get(TTextInBuffer &buffer){}
+	virtual int IsDelimiter(void) const { return true; }
 	virtual void Print(void) const{}
 };
 
@@ -74,6 +87,7 @@ public:
 class TSpecialToken:public TToken{
 public:
 	virtual void Get(TTextInBuffer &buffer);
+	virtual int IsDelimiter(void) const { return true; }
 	virtual void Print(void) const;
 };
 
@@ -84,6 +98,7 @@ class TEOFToken: public TToken{
 public:
 	TEOFToken(void){ code=tcEndOfFile; }
 	virtual void Get(TTextInBuffer &buffer){}
+	virtual int IsDelimiter(void) const { return false; }
 	virtual void Print(void) const{}
 
 };
@@ -93,6 +108,7 @@ class TErrorToken:public TToken{
 public:
 	TErrorToken(void){ code= tcError; }
 	virtual void Get(TTextInBuffer &buffer);
+	virtual int IsDelimiter(void) const { return false; }
 	virtual void Print(void) const{}
 
 };
