@@ -1,1 +1,21 @@
-Info: Nothing to build for Compiler
+18:03:21 **** Incremental Build of configuration Debug for project Compiler ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lister\\list.o" "..\\src\\lister\\list.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\token\\token.o" "..\\src\\token\\token.cpp" 
+..\src\token\token.cpp: In member function 'virtual void TWordToken::Get(TTextInBuffer&)':
+..\src\token\token.cpp:32:25: warning: array subscript has type 'char' [-Wchar-subscripts]
+  }while( (charCodeMap[ch]==ccLetter)
+                         ^
+..\src\token\token.cpp:33:22: warning: array subscript has type 'char' [-Wchar-subscripts]
+    || (charCodeMap[ch]== ccDigit));
+                      ^
+..\src\token\token.cpp:37:7: error: 'tcWord' was not declared in this scope
+  code=tcWord;
+       ^
+..\src\token\token.cpp: In member function 'virtual void TNumberToken::Get(TTextInBuffer&)':
+..\src\token\token.cpp:69:24: warning: array subscript has type 'char' [-Wchar-subscripts]
+  }while((charCodeMap[ch]==ccDigit));
+                        ^
+
+18:03:24 Build Finished (took 2s.716ms)
+

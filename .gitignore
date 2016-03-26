@@ -1,3 +1,14 @@
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 *.log
 .metadata/*
 .metadata/.log
@@ -6,3 +17,4 @@ Compiler/.settings/*
 Compiler/Debug/*
 .metadata/.plugins/org.eclipse.cdt.core/.log
 .metadata/.plugins/org.eclipse.cdt.core/Compiler.1455392001573.pdom
+RemoteSystemsTempFiles/*
